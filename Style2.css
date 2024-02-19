@@ -3,8 +3,16 @@ head{
     width: 100%;
 }
 
-header{
-    font-size: 35px;
-    font-family: "Arimo", sans-serif;
+
+
+
+
+body{
+    text-align: center;
+    align-items: center;
 }
-  
+
+#a1:hover{
+    color: #0093fc;
+}
+
