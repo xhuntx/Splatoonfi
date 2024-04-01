@@ -544,6 +544,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-\[100vh\] {
+  top: 100vh;
+}
+
+.-bottom-\[100vh\] {
+  bottom: -100vh;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -572,14 +592,46 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.-mb-96 {
+  margin-bottom: -24rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
+}
+
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .scale-75 {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-start {
@@ -596,6 +648,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -674,9 +730,3 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
-
-
-
-
-
-
