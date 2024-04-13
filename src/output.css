@@ -558,10 +558,6 @@ video {
   position: sticky;
 }
 
-.bottom-3 {
-  bottom: 0.75rem;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -574,12 +570,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-64 {
-  margin-bottom: 16rem;
-}
-
 .mb-7 {
   margin-bottom: 1.75rem;
+}
+
+.mb-96 {
+  margin-bottom: 24rem;
 }
 
 .ml-72 {
@@ -596,10 +592,6 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-96 {
-  margin-bottom: 24rem;
 }
 
 .flex {
