@@ -2,7 +2,12 @@
 module.exports = {
   content: ['*.html'],
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+        "Poetsen One": ['Poetsen One','sans-serif']
+      },
+    },
   },
   plugins: [],
 }
