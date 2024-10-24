@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -458,8 +458,7 @@ video {
   src: url(//Poetsen_One/PoetsenOne-Regular.ttf) format("ttf");
 }
 
-html{
-  font-family: "Poetsen One", system-ui, sans-serif
+h1{
 }
 
 *, ::before, ::after {
@@ -698,10 +697,6 @@ html{
   text-align: center;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -717,12 +712,12 @@ html{
   line-height: 1.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-green-400 {
