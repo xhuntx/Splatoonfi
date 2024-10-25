@@ -445,6 +445,7 @@ video {
 [hidden] {
   display: none;
 }
+/* FONTS */
 /* Add additonal fonts here */
 .font-poetsen{
   font-family: Poetsen One, serif;
