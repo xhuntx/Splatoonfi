@@ -12,8 +12,6 @@
         src: url(//Poetsen_One/PoetsenOne-Regular.ttf) format("ttf");
     }
     html{
-         font-family: system-ui, sans-serif
+         font-family: system-ui, sans-serif, Poetsen One;
 }
-h1{
-    font-family:
 }

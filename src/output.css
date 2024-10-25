@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Poetsen One";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -446,20 +446,15 @@ video {
   display: none;
 }
 
-@font-face {
-  font-family: Poetsen One;
-
+.font-Poetsen{
+  font-family: Poetsen One, serif;
   font-style: normal;
-
   font-weight: 400;
-
   font-display: swap;
-
   src: url(//Poetsen_One/PoetsenOne-Regular.ttf) format("ttf");
 }
 
-h1{
-}
+
 
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
