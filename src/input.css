@@ -4,12 +4,6 @@
 
 
 @layer base {
-    @font-face {
-        font-family: Poetsen One;
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: url(//Poetsen_One/PoetsenOne-Regular.ttf) format("ttf");
     }
     html{
          font-family: system-ui, sans-serif, Poetsen One;

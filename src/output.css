@@ -445,8 +445,8 @@ video {
 [hidden] {
   display: none;
 }
-
-.font-Poetsen{
+/* Add additonal fonts here */
+.font-poetsen{
   font-family: Poetsen One, serif;
   font-style: normal;
   font-weight: 400;
@@ -454,8 +454,7 @@ video {
   src: url(//Poetsen_One/PoetsenOne-Regular.ttf) format("ttf");
 }
 
-
-
+/* Dont add any past this */
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
